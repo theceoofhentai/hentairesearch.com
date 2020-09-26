@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #0c0c0c;
+	color: white;
+}
+
+#chart {
+	width: 1500px;
+	margin: auto;
+}
+
+#fetishes {
+	display: grid;
+	width: 1200px;
+	margin: 150px auto;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+input[type=text] {
+	background: #23272a;
+	border: 0;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	outline: 0;
+	border-bottom: #7289da 5px solid;
+	min-width: 300px;
+}
+
+button {
+	background: #23272a;
+	border: 0;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	outline: 0;
+	min-width: 100px;
+}
+
+button:hover {
+	background: #32363a;
+	cursor: pointer;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+header {
+	width: 100%
+}
+
+footer {
+	color: white; 
+	width: 1200px;
+	margin: 200px auto;
+}
+
+header img {
+	height: 50px;
+	width: 100%;
+	object-fit: cover;
+}
+
+a {
+	color: white;
+}
+
+.animation {
+	width: 1200px;
+	margin: 150px auto;
+	color: white;
+	text-align: center;
+}
+
+.animation h1 {
+	font-weight: 100;
+	font-size: 60px;
+}
+
+.container img {
+	width: 100%;
+}
+
+.container h1 {
+	font-weight: 100;
+	font-size: 40px;
+}
+
+.container div {
+	background: #151515;
+	padding: 30px 20px;
+	color: white;
+	border-top: 2px solid #339bff;
+}
+
+
+.container {
+	display: grid;
+	width: 1200px;
+	margin: auto;
+	margin-top: 80px;
+	grid-gap: 10px;
+	grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 1100px) {
+	.container {
+		width: 90%;
+		grid-template-columns: unset;
+	}
+	footer {
+		width: 90%;	
+	}
+	.animation {
+		width: 90%;	
+	}
+	.wrapper {
+		width: 90%;
+	}
+	#fetishes {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 1500px)
+{
+	#chart {
+		width: 90%;	
+	}
+}
+
+h1 {
+	margin-top: 0;
+}
